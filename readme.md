@@ -8,6 +8,12 @@ This git repository contains the Supplementary Information to the publication
 
 -	Dataset_and_Predictions.xlxs
 
+-	DNN_mono
+
+-	DNN_taut
+
+-	logP.yml
+
 
 We used DeepChem library for model development. 
 The full code for the DNN development is given 
@@ -23,6 +29,12 @@ The finally used dataset and resulting predictions for the dataset
 are listed in Dataset_and_Predictions.xlxs. 
 
 The file also lists the dataset from Martel et al. [2] and the respective prediction results.
+
+Developed models DNN_mono (without data_augmentation) and DNN_taut (with data_augmentation) are saved in the respective folders for reuse. Details regarding the models can be found in the publication.
+
+For used package versions see the conda environment export logP.yml.
+
+
 
 
 1.	Mansouri K, Grulke CM, Richard AM, Judson RS, Williams AJ. An 
